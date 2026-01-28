@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 15%;
+}
+
+h2 {
+  margin-bottom: 25px;
+  color: #203a43;
+}
+
+/* ABOUT */
+.about p {
+  max-width: 900px;
+  font-size: 1rem;
+}
+
+/* PROJECTS */
+.projects .card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.projects h3 {
+  margin-bottom: 5px;
+}
+
+.projects span {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.projects ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+/* VIDEO BESAR */
+.video-large {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  margin: 25px 0 50px;
+}
+
+.video-large iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+/* GRID 5 VIDEO MENYAMPING */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  background: #203a43;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  section {
+    padding: 40px 8%;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
